@@ -1,0 +1,25 @@
+{
+	"js/webapp.min.js": [
+		"public/c3/d3.v3.js",
+		"public/c3/c3.js",
+		"public/c3/c3.css",
+		"public/js/jquery.dataTables.min.js",
+		"public/js/jquery.dataTables.min.css",
+	],
+	"js/gridtable.min.js": [
+		"public/slickgrid/slick.grid.css",
+  		"public/slickgrid/jquery-ui-1.8.16.custom.css",
+  		"public/slickgrid/examples.css",
+  		"public/slickgrid/firebugx.js",
+		"public/slickgrid/jquery-ui-1.8.16.custom.min.js",
+		"public/slickgrid/jquery.event.drag-2.2.js",
+		"public/slickgrid/slick.core.js",
+		"public/slickgrid/slick.cellrangedecorator.js",
+		"public/slickgrid/slick.cellrangeselector.js",
+		"public/slickgrid/slick.cellselectionmodel.js",
+		"public/slickgrid/slick.formatters.js",
+		"public/slickgrid/slick.editors.js",
+		"public/slickgrid/slick.grid.js"
+	]
+}
+
