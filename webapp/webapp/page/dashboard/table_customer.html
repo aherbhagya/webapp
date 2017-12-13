@@ -1,0 +1,34 @@
+<label>Customer Detail</label>
+
+<table id="customerTable" class="display" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th class="text-center">Customer</th>
+            <th class="text-center">Customer Type</th>
+            <th class="text-center">Customer Group</th>
+            <th class="text-center">Territory</th>
+        </tr>
+    </thead>
+    <tbody>
+      {% for i in data %}
+        <tr>
+            <td> 
+                <a href="desk#Form/Customer/{{ i.name }}">{{ i.customer_name }}
+                </a>
+            </td>
+            <td> {{ i.customer_type }} </td>
+            <td class="text-right"> {{ i.customer_group }} </td>
+            <td class="text-right"> {{ i.territory }} </td>
+        </tr>
+      {% endfor %}
+    <tfoot>
+        <tr>
+            <th class="text-center">Customer</th>
+            <th class="text-center">Customer Type</th>
+            <th class="text-center">Customer Group</th>
+            <th class="text-center">Territory</th>
+        </tr>
+    </tfoot>
+
+    </tbody>
+</table>            

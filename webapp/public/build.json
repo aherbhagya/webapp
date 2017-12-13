@@ -6,7 +6,7 @@
 		"public/js/jquery.dataTables.min.js",
 		"public/js/jquery.dataTables.min.css",
 	],
-	"js/gridtable.min.js": [
+	"js/gridtable1.min.js": [
 		"public/slickgrid/slick.grid.css",
   		"public/slickgrid/jquery-ui-1.8.16.custom.css",
   		"public/slickgrid/examples.css",
