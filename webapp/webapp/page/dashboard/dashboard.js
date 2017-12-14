@@ -387,15 +387,16 @@ webapp.Dashboard = Class.extend({
     title: __("Add Customer"),
     fields: [
         {
-          "label": __("First Name"), 
-          "fieldname": "first_name",
+          "label": __("Customer Name"), 
+          "fieldname": "customer_name",
           "fieldtype": "Data", 
           "reqd": 1
         },
         {
-          "label": __("Last Name"), 
-          "fieldname": "last_name",
-          "fieldtype": "Data", 
+          "label": __("Customer Type"), 
+          "fieldname": "customer_type",
+          "fieldtype": "Link",
+          "options" : "Customer Type",
           "reqd": 1
         },
         {
@@ -405,10 +406,10 @@ webapp.Dashboard = Class.extend({
           "options":["Male","Female"]
         },
         {
-          "label": __("Email"), 
-          "fieldname": "email",
-          "fieldtype": "Data", 
-          "reqd": 1
+          "label": __("Customer Group"), 
+          "fieldname": "customer_group",
+          "fieldtype": "Link",
+          "options" : "Customer Group"
         },
         {
           "fieldname":"cb1",
